@@ -1,7 +1,13 @@
+from difflib import context_diff
 from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Rango says hey there partner!")
-    
+
+    #Dict for template engine, boldmessage is like a variable for use in the html
+    context_dict = {'boldmessage' : 'Crunchy, creamy, cookie, candy, cupcake!'}
+
+    #2nd param is tempalte we want to use
+    return render(request, 'rango/index.html', context=context_dict)
+
 
