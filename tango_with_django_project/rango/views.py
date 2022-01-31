@@ -10,4 +10,9 @@ def index(request):
     #2nd param is tempalte we want to use
     return render(request, 'rango/index.html', context=context_dict)
 
+def about(request):
 
+    #Contect Dict will store author name here
+    context_dict = {'authorName' : 'James Miller'}
+
+    return render(request, 'rango/about.html', context = context_dict)
