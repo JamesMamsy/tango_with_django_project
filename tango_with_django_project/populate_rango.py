@@ -12,22 +12,22 @@ def populate():
     #Dict of pages to add into each category
     #Python Category
     python_pages = [
-        {'title': 'Official Python Tutorial', 'url':'http://docs.python.org/3/tutorial/'},
-        {'title':'How to Think like a Computer Scientist','url':'http://www.greenteapress.com/thinkpython/'},
-        {'title':'Learn Python in 10 Minutes','url':'http://www.korokithakis.net/tutorials/python/'} ,
+        {'title': 'Official Python Tutorial', 'url':'http://docs.python.org/3/tutorial/', 'views' : 156},
+        {'title':'How to Think like a Computer Scientist','url':'http://www.greenteapress.com/thinkpython/', 'views': 2},
+        {'title':'Learn Python in 10 Minutes','url':'http://www.korokithakis.net/tutorials/python/'}, 'views': 365 ,
     ]
 
     #Django Category
     django_pages = [
-        {'title': 'Official Django Tutorial', 'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/'},
-        {'title': 'Django Rocks', 'url':'https://www.djangorocks.com/'},
-        {'title': 'How to Tango with Django', 'url':'https://www.tangowithdjango.com/'}        
+        {'title': 'Official Django Tutorial', 'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/', 'views': 420},
+        {'title': 'Django Rocks', 'url':'https://www.djangorocks.com/', 'views': 113},
+        {'title': 'How to Tango with Django', 'url':'https://www.tangowithdjango.com/', 'views': 1}        
     ]
 
     #Other Category
     other_pages = [
-        {'title':'Bottle', 'url':'http://bottlepy.org/docs/dev'},
-        {'title':'Flask', 'url':'http://flask.pocoo.org'},
+        {'title':'Bottle', 'url':'http://bottlepy.org/docs/dev', 'views': 30},
+        {'title':'Flask', 'url':'http://flask.pocoo.org', 'views': 42},
     ]
 
     #Dictionary of Categories to pages
